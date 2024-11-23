@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: burlywood;
+    position: relative;
+}
+.border{
+    color: red;
+    display: inline-block;
+    border: 1px solid red;
+    padding: 9px;
+    margin-left: 750px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: xx-large;
+    opacity: 1;
+    transform: translateY(100%);
+    animation: uptodown 0.5s forwards;
+}
+@keyframes uptodown{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+main{
+    position: relative;
+}
+.navleft{
+    width: 5%;
+    height: 600%;
+    position: absolute;
+    background-color: lightgray;
+    opacity: 1;
+    transform: translatex(100%);
+    animation: lefttori 0.5s forwards;
+}
+.navleft ul{
+    list-style: none;
+    background-color: rgb(71, 71, 71);
+}
+.navleft UL LI{
+    padding-bottom: 40px;
+    
+}
+.navleft a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.navleft a:hover{
+    background-color: rgb(116, 111, 111);
+}
+@keyframes lefttori{
+    0%{
+        opacity: 0;
+        transform: translatex(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translatex(0%);
+    }
+}
+.navup{
+    padding-left: 1150px;
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 85%;
+    opacity: 1;
+    animation: navdown 1s forwards;
+    transform: translateY(50%);
+}
+.navup ul{
+    overflow: hidden;
+    list-style: none;
+}
+.navup li{
+    float: left;
+    padding: 16px;
+    font-size: larger; 
+}
+.navup a{
+    text-decoration: none;
+}
+@keyframes navdown{
+    0%{
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.qiqi{
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 40px;
+    color: blueviolet;
+    opacity: 1;
+    transform: translateX(70%);
+    animation: qiqi 1.5s forwards;
+}
+@keyframes qiqi{
+    0%{
+        opacity: 0;
+        transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.qiqi1{
+    display: inline-block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: qiqi1 1.5s forwards;
+    opacity: 1;
+    transform: translateX(100%);
+}
+@keyframes qiqi1{
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.qiqi2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 150px; 
+    opacity: 1;
+    transform: translateY(100%);
+    animation: qiqi2 1.6s forwards;
+}
+@keyframes qiqi2{
+    0%{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.kuki1{
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 420px;
+    color: blueviolet;
+    opacity: 0;
+    transform: translatex(-50%);
+    animation: kuki1 1.3s forwards;
+    animation-delay: 1.2s;
+}
+@keyframes kuki1{
+    0%{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.kuki2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 490px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transform: translatex(100%);
+    animation: kuki2 1.5s forwards;
+    animation-delay: 1.2s;
+}
+@keyframes kuki2{
+    0%{
+        opacity: 0;
+        transform: translateX(70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.kuki3{
+    display: inline-block;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 550px; 
+    opacity: 0;
+    transform: translatey(100%);
+    animation: kuki3 1.3s forwards;
+    animation-delay: 1.8s;
+}
+@keyframes kuki3{
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
